@@ -1,0 +1,35 @@
+* {
+    background-color: beige;
+    color: rgb(0, 145, 255); 
+    text-align: center; 
+}
+span {
+    color: rgb(168, 47, 47);
+    width: 600px;
+    } 
+    /*
+    le dimos importancia a que todo sea distinto
+    */
+    h1{
+      font-family: 'Roboto', sans-serif;
+      border: 1px solid black;
+       padding-top: 3px;
+       padding-bottom: 5px;
+       margin: 15px 20px 40px 40px;
+
+        font-weight: bold;
+        color: rebeccapurple;
+    } 
+section
+ { width: 300px;
+    border: 15px solid red;
+    padding: 20px;
+    margin: 10px;
+}
+#mi_párrafo {
+    color: rgb(0, 23, 128); text-align: center;
+}
+
+section h1 {
+    font-style: italic;
+}
