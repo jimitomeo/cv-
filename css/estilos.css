@@ -3,14 +3,15 @@
     color: rgb(0, 145, 255); 
     text-align: center; 
 }
-span {
+span { font-size: large;
     color: rgb(168, 47, 47);
-    width: 600px;
+    width: 1000px;
+    padding: 40px 40px 40px 40px
     } 
     /*
     le dimos importancia a que todo sea distinto
     */
-    h1{
+h1{
       font-family: 'Roboto', sans-serif;
       border: 1px solid black;
        padding-top: 3px;
@@ -26,10 +27,26 @@ section
     padding: 20px;
     margin: 10px;
 }
-#mi_párrafo {
-    color: rgb(0, 23, 128); text-align: center;
+p {
+    color: rgb(0, 23, 128); text-align: center; font-weight: bold; margin-top: 20px;
 }
 
-section h1 {
-    font-style: italic;
-}
+#botón {border: solid purple;
+padding-top: 5px;
+padding-bottom: 5px;
+margin: 40px 40px 40px 40px}
+
+#botón2 {border: solid purple;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 40px 40px 40px 40px}
+
+  h3 {    font-family: 'Roboto', sans-serif;
+   padding-top: 3px;
+   padding-bottom: 5px;
+   margin: 15px 20px 20px 20px;
+
+    font-weight: bold;
+    color: rebeccapurple;}
+
+    footer { margin-bottom: 10px; margin-top: 20px;font-size: medium;}

@@ -16,30 +16,44 @@
     <H2>JIMENA TOMEO</H2>
 
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzK1NqM9UNKOxbGp_MRHF93LGrMoM7p-9Brn6fN686TqWZB1P-_Boj1m6rDdgqKw412YI&amp;usqp=CAU" data-deferred="1" class="rg_i Q4LuWd" jsname="Q4LuWd" width="199" height="199" alt="Jimena Tomeo" data-iml="827.2000000476837" data-atf="true"class="img-fluid">    
-
+    <p id="datos"> 
+    </p>
+    <script>
+      const persona = '{"nombre":"Jimena Tomeo","fechadenacimiento":"10/03/1991","nacionalidad":"argentina","lugarderesidencia":"Rosario"}';
+      const obj = JSON.parse (persona);
+      console.log (obj);
+        document.getElementById ("datos").innerHTML =
+        "Nombre: " +obj.nombre+
+        "/Fecha de nacimiento: " +obj.fechadenacimiento+
+        "/Nacionalidad: " +obj.nacionalidad+
+        "/Lugar de residencia: " +obj.lugarderesidencia;
+    </script>
+    
     <div class="container text-center">
         <div class="row">
           <div class="col-7 col-md-4">
             <p id="mi_párrafo"> Abogada, profesora en derecho, estudiante del último año del profesorado de inglés y frontend </p>
           </div>
           <div class="col-3 col-md-4">
-            experiencia laboral
+            <button type="button" id="botón">EXPERIENCIA LABORAL</button> 
           </div>
           <div class="col-2 col-md-4">
-            Objetivos
+            <button type="button" id="botón2"> OBJETIVOS</button>
           </div>
         </div>
       </div>     
         <script src="js/function.js"></script>
     <span>No duden en consultarme</span>
+
+    
     <footer>
-        <h3>Formulario de contacto</h3> <l--- 
+      <h3>Formulario de contacto</h3><l--- 
         posibilidad que empleadores contacten a la persona la información ingresada va al servidor
         l--->
     <form        action="" method="post">  
         <label> Nombre </label>
         <input required type="text" name="nombre" placeholder="Ingrese su nombre"/>
-        <label> apellido </label>
+        <label> Apellido </label>
         <input type="text" name="apellido" placeholder="Ingrese su apellido" title="este campo es obligatorio" aria-label="required">*</abbr></label>
         <label> e-mail </label>
         <input type="email" name="email" placeholder="ingrese su email"/>
